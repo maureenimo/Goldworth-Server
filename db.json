@@ -1,0 +1,254 @@
+{
+	"courses": [
+		{
+			"id": 1,
+			"course_name": "Introduction to Web Development",
+			"description": "Explore the fundamentals of web development, covering HTML, CSS, and basic JavaScriptand breathe life into visually appealing web pages from scratch.",
+			"students": [
+				{
+					"student_id": 1
+				},
+				{
+					"student_id": 5
+				}
+			]
+		},
+		{
+			"id": 2,
+			"course_name": "Python Fundamentals",
+			"description": "Learn the fundamental concepts of Python programming, including variables, data types, control structures, and functions.",
+			"students": [
+				{
+					"student_id": 1
+				},
+				{
+					"student_id": 2
+				}
+			]
+		},
+		{
+			"id": 3,
+			"course_name": "Data Structures and Algorithms",
+			"description": "We start this course by looking in detail at the fundamental building blocks: arrays and linked lists. From there, we build up two important data structures: stacks and queues. Next, we look at trees: examples of how they are used in Computer Science, how they are implemented, and the various ways they can be traversed. Once you have completed this course, you will be able to implement any of these data structures, as well as have a solid understanding of the costs of the operations, as well as the tradeoffs involved in using each data structure.",
+			"students": [
+				{
+					"student_id": 4
+				},
+				{
+					"student_id": 3
+				}
+			]
+		},
+		{
+			"id": 4,
+			"course_name": "Full-Stack Web Development",
+			"description": "Comprehensive course covering both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Express, MongoDB) development."
+		},
+		{
+			"id": 5,
+			"course_name": "Mobile App Development with React Native",
+			"description": "Build cross-platform mobile applications using React Native, combining the power of React with native capabilities."
+		},
+		{
+			"id": 6,
+			"course_name": "Database Design and SQL",
+			"description": "Learn the principles of relational database design and master SQL for effective database management."
+		},
+		{
+			"id": 7,
+			"course_name": "Machine Learning Essentials",
+			"description": "An introduction to machine learning concepts and algorithms, including supervised and unsupervised learning."
+		},
+		{
+			"id": 8,
+			"course_name": "Game Development",
+			"description": "This holistic, project-based course teaches intermediate and advanced game development concepts and industry-established software design practices."
+		},
+		{
+			"id": 9,
+			"course_name": "Front-end Frameworks: React and Angular",
+			"description": "Learn to build modern web applications using popular front-end frameworks like React and Angular."
+		},
+		{
+			"id": 10,
+			"course_name": "RESTful API Development",
+			"description": "Understand the principles of RESTful API design and develop APIs for web applications."
+		},
+		{
+			"id": 11,
+			"course_name": "Cybersecurity Fundamentals",
+			"description": "Understand the basics of cybersecurity, including threat detection, encryption, and best practices for securing systems."
+		},
+		{
+			"id": 12,
+			"course_name": "Data Science with Python",
+			"description": "Learn data science fundamentals using Python, covering data manipulation, analysis, and visualization."
+		},
+		{
+			"id": 13,
+			"course_name": "DevOps and Continuous Integration",
+			"description": "Delve into DevOps practices, including version control, continuous integration, and automated deployment."
+		},
+		{
+			"id": 14,
+			"course_name": "JavaScript for Beginners",
+			"description": "Get started with JavaScript, focusing on the basics of the language and its role in web development."
+		}
+	],
+	"contents": [
+		{
+			"id": 1,
+			"content_name": "Introduction to Basic JavaScript",
+			"description": "Understand the basics of JavaScript and its role in enhancing web interactivity.",
+			"content_type": "Video",
+			"course_id": 1
+		},
+		{
+			"id": 2,
+			"content_name": "HTML and CSS Essentials for Beginners",
+			"description": "Explore the fundamentals of HTML and CSS for creating static web pages.",
+			"content_type": "Video",
+			"course_id": 1
+		},
+		{
+			"id": 3,
+			"content_name": "Introduction to Python Variables",
+			"description": "Learn about variables, data types, and basic operations in Python",
+			"content_type": "Article",
+			"course_id": 2
+		},
+		{
+			"id": 4,
+			"content_name": "Object-Oriented Programming Concepts in Python",
+			"description": "Master the principles of object-oriented programming using the Java language",
+			"content_type": "Article",
+			"course_id": 2
+		},
+		{
+			"id": 5,
+			"content_name": "Functions in Python",
+			"description": "Master the concept of functions in Python and understand their role in programming.",
+			"content_type": "Article",
+			"course_id": 2
+		},
+		{
+			"id": 6,
+			"content_name": "Linked Lists",
+			"description": "Explore the implementation and applications of linked lists",
+			"content_type": "Article",
+			"course_id": 3
+		},
+		{
+			"id": 7,
+			"content_name": "Big O Notation",
+			"description": "Learn about Time and Space COmplexity in programming",
+			"content_type": "Article",
+			"course_id": 3
+		},
+		{
+			"id": 8,
+			"content_name": "Front-end Development with React: An Introduction",
+			"description": "Get started with React.js and understand its role in building dynamic user interfaces.",
+			"content_type": "Video",
+			"course_id": 4
+		},
+		{
+			"id": 9,
+			"content_name": "Creating Cross-Platform Mobile Apps with React Native",
+			"description": "Build mobile applications that work on both iOS and Android using React Native.",
+			"content_type": "Video",
+			"course_id": 5
+		},
+		{
+			"id": 10,
+			"content_name": "SQLAlchemy",
+			"description": "Get started with SQLAlchemy",
+			"content_type": "Video",
+			"course_id": 6
+		},
+		{
+			"id": 11,
+			"content_name": "Introduction to Supervised Learning Algorithms",
+			"description": "Explore the basics of supervised learning algorithms in machine learning.",
+			"content_type": "Video",
+			"course_id": 7
+		},
+		{
+			"id": 12,
+			"content_name": "Implementing Character Animation in Unity",
+			"description": "Learn to animate characters and objects in Unity for dynamic and engaging games.",
+			"content_type": "Video",
+			"course_id": 8
+		},
+		{
+			"id": 13,
+			"content_name": "Building a Responsive Web App with React",
+			"description": "Learn about variables, data types, and basic operations in PythonCreate a responsive web application using React.js for a seamless user experience",
+			"content_type": "Article",
+			"course_id": 9
+		},
+		{
+			"id": 14,
+			"content_name": "Angular Components and Services",
+			"description": "Understand Angular components and services for building modular and maintainable applications",
+			"content_type": "Article",
+			"course_id": 9
+		},
+		{
+			"id": 15,
+			"content_name": "Creating RESTful APIs with Flask in Python",
+			"description": "Learn to build RESTful APIs using the Flask framework in Python.",
+			"content_type": "Article",
+			"course_id": 10
+		},
+		{
+			"id": 16,
+			"content_name": "Authentication and Authorization in RESTful APIs",
+			"description": "Understand authentication and authorization mechanisms in RESTful API development.",
+			"content_type": "Article",
+			"course_id": 10
+		},
+		{
+			"id": 17,
+			"content_name": "Introduction to Network Security",
+			"description": "Understand the basics of network security and common measures to protect against threats.",
+			"content_type": "Video",
+			"course_id": 11
+		},
+		{
+			"id": 18,
+			"content_name": "Exploratory Data Analysis (EDA) with Python",
+			"description": "Conduct exploratory data analysis using Python to uncover insights in datasets.",
+			"content_type": "Article",
+			"course_id": 12
+		},
+		{
+			"id": 19,
+			"content_name": "Introduction to Continuous Integration with Jenkins",
+			"description": "Learn the fundamentals of continuous integration using Jenkins for efficient software development.",
+			"content_type": "Article",
+			"course_id": 13
+		},
+		{
+			"id": 20,
+			"content_name": "DataTypes, Variables in JavaScript",
+			"description": "Delve into the different types of Variables and DataTypes in Programming",
+			"content_type": "Article",
+			"course_id": 14
+		},
+		{
+			"id": 21,
+			"content_name": "Functions in JavaScript",
+			"description": "Master the concept of functions in JavaScript and understand their role in programming.",
+			"content_type": "Article",
+			"course_id": 14
+		},
+		{
+			"id": 22,
+			"content_name": "Object-Oriented Programming Concepts in JavaScript",
+			"description": "Master the principles of object-oriented programming using the JavaScript language.",
+			"content_type": "Article",
+			"course_id": 14
+		}
+	]
+}

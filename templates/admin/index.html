@@ -1,0 +1,69 @@
+{% extends 'admin/master.html' %}
+
+{% block head %}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LMS Admin Dashboard</title>
+    <style>
+        .home-container {
+            margin: 0px 53px;
+            padding-left: 15px;
+            padding-right: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* height: 100vh; */
+            font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .home-content {
+            padding: 20px;
+            background-color: rgb(55, 90, 127);
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .home-content h2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .home-content p {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+{% endblock %}
+
+{% block body %}
+
+<body>
+    <div class="home-container">
+        <div class="home-content">
+            <div>
+                <h2>WELCOME TO THE GOLDWORTH LMS ADMIN DASHBOARD</h2>
+            </div>
+            <div>
+                <p>
+                    This is where you can manage your Learning Management System
+                    platform.
+                </p>
+                <p>
+                    You can add, edit, and delete courses,course-content, students,
+                    teachers, parents, events, student report cards, assignments and
+                    customize settings to suit your needs.
+                </p>
+                <p>Explore the features and make the most out of your LMS!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
+
+
+
